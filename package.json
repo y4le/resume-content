@@ -1,0 +1,20 @@
+{
+  "name": "resume-content",
+  "version": "1.0.0",
+  "description": "Resume data for Yale Thomas to be visualized in different UIs",
+  "main": "construct_data.js",
+  "repository": "git@github.com:y4le/resume-content.git",
+  "author": "Yale Thomas <lordchair@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "scripts": {
+    "build": "node build.js ./data ./dist/data.js",
+    "lint": "npx standard build.js",
+    "lint-fix": "npx standard build.js --fix"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "js-standard": "^1.0.1",
+    "js-yaml": "^4.1.0"
+  }
+}

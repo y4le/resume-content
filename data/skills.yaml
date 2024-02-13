@@ -1,0 +1,23 @@
+---
+
+SKILLS:
+  - { name: 'Ruby',        skill: .7, category: 'backend' }
+  - { name: 'Java',        skill: .9, category: 'backend' }
+  - { name: 'Kotlin',      skill: .2, category: 'backend' }
+  - { name: 'Python',      skill: .9, category: 'backend' }
+  - { name: 'Tensorflow',  skill: .5, category: 'ml' }
+  - { name: 'Spark',       skill: .6, category: 'ml' }
+  - { name: 'CSS',         skill: .8, category: 'web' }
+  - { name: 'HTML',        skill: .8, category: 'web' }
+  - { name: 'Javascript',  skill: .9, category: 'web' }
+  - { name: 'Bash',        skill: .5, category: 'script' }
+  - { name: 'SQL',         skill: .7, category: 'backend' }
+  - { name: 'Matlab',      skill: .3, category: 'math' }
+  - { name: 'Mathematica', skill: .5, category: 'math' }
+  - { name: 'Photoshop',   skill: .6, category: 'adobe' }
+
+skillOrderings:
+  - category
+  - experience
+  - alphabetic
+

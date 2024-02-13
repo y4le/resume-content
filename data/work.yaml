@@ -1,0 +1,102 @@
+---
+
+WORK:
+  # TODO update amazon
+
+  - title: Google
+    title_link: http://www.google.com
+    job_title: Dialer Team Software Engineer
+    start_date: 2019
+    end_date: 2022
+    notes: >
+      Worked on improving the default android "phone" app.
+      Collaborated with a large team to build the automatic call screening feature.
+      Worked with one other coworker to prototype a new test framework that is now in use to run the same test suite as unit/emulator/device tests.
+      Handled client side implementation of the initial i18n pilot for call screen (Japanese support).
+      Implemented and launched caller tags, a less specific type of caller ID that tells users what type of business is calling.
+      Set up crowdsourcing flows to continually improve our caller ID/tag coverage.
+      Built server side pipeline for internationalizing and hosting the set of available caller tags. Continuing work on server side heuristics/anti abuse policy to choose caller tags based on past feedback.
+      Co-inventor of the patent for [automatic call screening](https://patents.google.com/patent/WO2021101935A1)
+    skills:
+      - java
+      - kotlin
+      - android
+
+  - title: Tophatter
+    title_link: http://www.tophatter.com
+    job_title: Full Stack Software Engineer
+    start_date: 2017
+    end_date: 2018
+    notes: >
+      Started off working on front end web. Demoed a react version of Tophatter but didn\'t get support to move forward with it.
+      Learned Rails and transitioned to full stack.
+      Pitched and worked with a team of 3 to build a collaborative filtering model for product recommendation.
+      Worked with team of 3 to rebuild product deduplication pipeline from the ground up. Used neural networks to process item features into a few feature vectors, generated candidates using faiss vector similarity search, judged if candidates were actually duplicates using a random forest.
+      Pitched, designed, and built a human review queue for our model to get ground truth data for product deduplication. This improved the performance of a NN I had set aside before to the point where it replaced the random forest model. Closed the training loop so the system will continue to improve with time.
+      Infrastructure work on data pipelines. Built service that efficiently tracks recent user-product interactions using ring buffers in redis.
+      In my final quarter I requested a week to work on web performance and had a big win by fixing viewport rendering - stat sig +6% new user conversion and +4% total revenue on web.
+    skills:
+      - rails
+      - coffeescript
+      - python
+      - spark
+      - tensorflow
+
+  - title: Pandora
+    title_link: http://www.pandora.com
+    job_title: Web Team Engineer
+    start_date: 2015
+    end_date: 2017
+    notes: >
+      Worked on angular UI for a tool for artists to send messages to their listeners.
+      Spent last year and a half working on complete react rewrite of web client.
+      Implemented Pandora Premium subscription tier on web.
+    skills:
+      - javascript (react)
+      - HTML
+      - CSS
+
+  - title: Rdio
+    title_link: http://www.rdio.com
+    job_title: Web Team Engineer
+    start_date: 2014
+    end_date: 2015
+    notes: >
+      Finally learned how to really work effectively in a software development team as an intern here.
+      Dropped out of school to pursue a full time software engineering position.
+      Worked on "music feed", the current rdio.com homepage page.
+      Implemented a user exit survey that collects much more information than before.
+      Pitched, created, and deployed a viewport tracker for the content on our homepage.
+      Implemented Rdio Select subscription tier on web.
+      Upgraded multiple admin pages with better visualizations/UX.
+    skills:
+      - javascript (backbone) (react)
+      - HTML
+      - CSS
+      - SQL
+      - python
+
+  - title: Facebook
+    title_link: http://www.facebook.com
+    job_title: Site Integrity Team Intern
+    end_date: 2013
+    notes: >
+      Worked with content review staff to improve internal tools that had been slowing them down.
+      Really enjoyed the challenge of making an interface that is intuitive and looks good.
+      Productivity could have been better, I was afraid of asking for help because I wanted to look smart. I learned from my experience.
+    skills:
+      - PHP
+      - HTML
+      - CSS
+
+  - title: WASHU
+    job_title: Medical Imaging Dept. Intern
+    end_date: 2012
+    skippable: true,
+    notes: >
+      Worked with a self directed team of 3 on tool for XDS medical document transfer protocol.
+      Built test endpoint with ability to select custom datasets that contained relevant file formats.
+      Just enough HIPAA training that I am terrified of touching any medical documents for fear of getting sued.
+    skills:
+      - java
+      - HTML

@@ -1,0 +1,52 @@
+---
+
+TIMELINE:
+  # TODO update amazon
+
+  - header: Google
+    subheader: Dialer Team Software Engineer
+    start: 2019
+    end: 2022
+    backgroundColor: rgb(66, 133, 244)
+
+  - header: Tophatter
+    subheader: Full Stack Software Engineer
+    start: May 2017
+    end: 2018
+    backgroundColor: rgb(69, 36, 160)
+
+  - header: Pandora
+    subheader: Web Team Engineer
+    start: Nov 2015
+    end: May 2017
+    backgroundColor: rgb(0, 160, 238)
+
+  - header: Rdio
+    subheader: Web Team Engineer
+    start: Aug 2014
+    end: Nov 2015
+    backgroundColor: rgb(14, 122, 204)
+
+  - header: Rdio
+    subheader: Web Team Intern
+    start: May 2014
+    end: Aug 2014
+    backgroundColor: rgb(14, 122, 204)
+
+  - header: Facebook
+    subheader: Site Integrity Team Intern
+    start: May 2013
+    end: Aug 2013
+    backgroundColor: rgba(60, 83, 143, 1.4)
+
+  - header: WASHU
+    subheader: Medical Imaging Dept. Intern
+    start: May 2012
+    end: Aug 2012
+    backgroundColor: rgba(38, 73, 50, 1.4)
+
+  - header: UIUC
+    subheader: Studying MatScE & CS
+    start: Sep 2011
+    end: May 2014
+    backgroundColor: rgba(246, 75, 5, 1.3)

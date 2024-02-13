@@ -1,0 +1,50 @@
+---
+
+PROJECTS:
+- title: GraphTV
+  title_link: http://y4le.github.io/graphtv
+  end_date: 2017
+  notes: >
+    Super bare bones site that visualizes TV shows imdb episode ratings.
+    Inspired by the great late http://graphtv.kevinformatics.com/
+    Try it out by clicking on the title above^^ Just enter a TV show name, hit enter, click on result.
+  skills:
+    - JS
+    - HTML
+    - CSS
+
+- title: Text Analyzer Webapp
+  title_link: http://y4le.github.io/textTrends
+  end_date: 2014
+  notes: >
+    Web app that visualizes word usage throughout long documents (think book series)
+    First attempt at webapp personal project.
+    Created about halfway through my last internship to test out web dev skills.
+    Try it out by clicking on the title above^^
+  skills:
+    - JS
+    - HTML
+    - CSS
+
+- title: Engineering Open House
+  start_date: 2013
+  end_date: 2014
+  notes: >
+    EOH is a school wide tech demo.
+    2013 - Designed, helped assemble, and programmed a Ferrofluid Music Visualizer.
+    2014 - Designed, built, and programmed a Morse Code Keyboard.
+  skills:
+    - hardware
+    - Arduino C
+    - PureData(never again)
+
+- title: FIRST Robotics
+  start_date: 2006
+  end_date: 2011
+  notes: >
+    Team 1329 leader from 2008-2011
+    Head of mechanics team.
+    Learned how to manage a group of high school underclassmen through a large project.
+  skills:
+    - hardware
+    - java

@@ -1,0 +1,61 @@
+---
+
+EDUCATION:
+  - title: UIUC
+    start_date: 2011
+    end_date: 2014
+    notes: >
+      Studied Materials Science and Computer Science.
+      Eclectic class list.
+      2nd place in Microsoft Windows Phone hackathon. I won a copy of viva pinata.
+      Participated in Engineering Open House the last 2 years I was there.
+      Dropped out after 3 years to pursue a full time software engineering position.
+
+  - title: St. Louis Priory School
+    start_date: 2006
+    end_date: 2011
+    notes: >
+      Tutored Chemistry and Physics for school program. Then proceeded to start much more lucrative independent classroom-style prep courses for Chemistry that I ran for the summers of 2011-12.
+      National Merit Semi-Finalist
+      FIRST robotics team 1329 leader
+
+CLASSES:
+  - { subject: 'MSE',  number: 100, name: 'Engineering Orientation',    semester: 1, category: 2 }
+  - { subject: 'MSE',  number: 182, name: 'Intro to MatSE',             semester: 1, category: 2 }
+  - { subject: 'CS',   number: 125, name: 'Intro to CS',                semester: 1, category: 1 }
+  - { subject: 'CS',   number: 196, name: 'Freshman Honors',            semester: 1, category: 1 }
+  - { subject: 'HIST', number: 253, name: 'Enlight. to Existentialsm',  semester: 1, category: 0 }
+  - { subject: 'MATH', number: 231, name: 'Calculus II',                semester: 1, category: 1 }
+  - { subject: 'MATH', number: 299, name: 'Topics in Mathematics',      semester: 1, category: 1 }
+  - { subject: 'PHIL', number: 101, name: 'Intro to Philosophy',        semester: 1, category: 0 }
+  - { subject: 'ANTH', number: 101, name: 'Intro to Anthropology',      semester: 2, category: 0 }
+  - { subject: 'GEOL', number: 107, name: 'Physical Geology',           semester: 2, category: 0 }
+  - { subject: 'MATH', number: 241, name: 'Calculus III',               semester: 2, category: 1 }
+  - { subject: 'MATH', number: 415, name: 'Applied Linear Algebra',     semester: 2, category: 1 }
+  - { subject: 'PHYS', number: 211, name: 'Univ Physics: Mechanics',    semester: 2, category: 2 }
+  - { subject: 'MATH', number: 285, name: 'Intro Differential Eq.',     semester: 3, category: 2 }
+  - { subject: 'MATH', number: 463, name: 'Statistics and Probability', semester: 3, category: 1 }
+  - { subject: 'PHIL', number: 202, name: 'Symbolic Logic',             semester: 3, category: 1 }
+  - { subject: 'PHYS', number: 212, name: 'Univ Physics: Elec & Mag',   semester: 3, category: 2 }
+  - { subject: 'CS',   number: 225, name: 'Data Structures',            semester: 4, category: 1 }
+  - { subject: 'CS',   number: 357, name: 'Numerical Methods I',        semester: 4, category: 1 }
+  - { subject: 'HIST', number: 461, name: 'Russia: Peter the Great',    semester: 4, category: 0 }
+  - { subject: 'PHYS', number: 213, name: 'Univ Physics: Thermal',      semester: 4, category: 2 }
+  - { subject: 'PHYS', number: 214, name: 'Univ Physics: Quantum',      semester: 4, category: 2 }
+  - { subject: 'ARTD', number: 215, name: 'Introduction to Typography', semester: 5, category: 0 }
+  - { subject: 'ATMS', number: 120, name: 'Sev. & Hazardous Weather',   semester: 5, category: 0 }
+  - { subject: 'CS',   number: 173, name: 'Discrete Structures',        semester: 5, category: 1 }
+  - { subject: 'CS',   number: 440, name: 'Artificial Intelligence',    semester: 5, category: 1 }
+  - { subject: 'CHEM', number: 232, name: 'Organic Chemistry',          semester: 6, category: 2 }
+  - { subject: 'CPSC', number: 116, name: 'Global Food Production',     semester: 6, category: 0 }
+  - { subject: 'MSE',  number: 206, name: 'Mechanics for MatSE',        semester: 6, category: 2 }
+  - { subject: 'MSE',  number: 450, name: 'Polymer Science & Eng.',     semester: 6, category: 2 }
+
+classOrderings:
+  - semester
+  - subject
+  - number
+  - alphabetic
+
+
+

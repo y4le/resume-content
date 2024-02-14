@@ -4,7 +4,7 @@ EDUCATION:
   - title: UIUC
     start_date: '2011'
     end_date: '2014'
-    notes: >
+    notes: |
       Studied Materials Science and Computer Science.
       Eclectic class list.
       2nd place in Microsoft Windows Phone hackathon. I won a copy of viva pinata.
@@ -14,7 +14,7 @@ EDUCATION:
   - title: St. Louis Priory School
     start_date: '2006'
     end_date: '2011'
-    notes: >
+    notes: |
       Tutored Chemistry and Physics for school program. Then proceeded to start much more lucrative independent classroom-style prep courses for Chemistry that I ran for the summers of 2011-12.
       National Merit Semi-Finalist
       FIRST robotics team 1329 leader

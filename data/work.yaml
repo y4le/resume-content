@@ -8,7 +8,7 @@ WORK:
     job_title: Dialer Team Software Engineer
     start_date: '2019'
     end_date: '2022'
-    notes: >
+    notes: |
       Worked on improving the default android "phone" app.
       Collaborated with a large team to build the automatic call screening feature.
       Worked with one other coworker to prototype a new test framework that is now in use to run the same test suite as unit/emulator/device tests.
@@ -27,7 +27,7 @@ WORK:
     job_title: Full Stack Software Engineer
     start_date: '2017'
     end_date: '2018'
-    notes: >
+    notes: |
       Started off working on front end web. Demoed a react version of Tophatter but didn\'t get support to move forward with it.
       Learned Rails and transitioned to full stack.
       Pitched and worked with a team of 3 to build a collaborative filtering model for product recommendation.
@@ -47,7 +47,7 @@ WORK:
     job_title: Web Team Engineer
     start_date: '2015'
     end_date: '2017'
-    notes: >
+    notes: |
       Worked on angular UI for a tool for artists to send messages to their listeners.
       Spent last year and a half working on complete react rewrite of web client.
       Implemented Pandora Premium subscription tier on web.
@@ -61,7 +61,7 @@ WORK:
     job_title: Web Team Engineer
     start_date: '2014'
     end_date: '2015'
-    notes: >
+    notes: |
       Finally learned how to really work effectively in a software development team as an intern here.
       Dropped out of school to pursue a full time software engineering position.
       Worked on "music feed", the current rdio.com homepage page.
@@ -80,7 +80,7 @@ WORK:
     title_link: http://www.facebook.com
     job_title: Site Integrity Team Intern
     end_date: '2013'
-    notes: >
+    notes: |
       Worked with content review staff to improve internal tools that had been slowing them down.
       Really enjoyed the challenge of making an interface that is intuitive and looks good.
       Productivity could have been better, I was afraid of asking for help because I wanted to look smart. I learned from my experience.
@@ -93,7 +93,7 @@ WORK:
     job_title: Medical Imaging Dept. Intern
     end_date: '2012'
     skippable: true
-    notes: >
+    notes: |
       Worked with a self directed team of 3 on tool for XDS medical document transfer protocol.
       Built test endpoint with ability to select custom datasets that contained relevant file formats.
       Just enough HIPAA training that I am terrified of touching any medical documents for fear of getting sued.

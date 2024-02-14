@@ -50,15 +50,6 @@ function parseAllYaml (directory) {
   mergedData = { ...mergedData, schemas }
   return mergedData
 }
-function writeJsData (data, filename = './data.js') {
-  const dataString = `module.exports = Object.freeze(JSON.parse(${JSON.stringify(data, null, 2)}));`
-  try {
-    fs.writeFileSync(filename, dataString)
-    console.log(`Data successfully written to ${filename}`)
-  } catch (e) {
-    console.error(`Failed to write data to ${filename}:`, e)
-  }
-}
 
 function writeJsonData (data, filename = './data.json') {
   try {
@@ -72,7 +63,7 @@ function writeJsonData (data, filename = './data.json') {
 function main () {
   const args = process.argv.slice(2)
   const directory = args[0]
-  const outputFilename = args[1] || './data'
+  const outputFilename = args[1] || './data.json'
 
   if (!directory) {
     console.error('Please provide a data directory containing yaml files as the first argument.')
@@ -81,14 +72,7 @@ function main () {
 
   const data = parseAllYaml(directory)
 
-  if (outputFilename.endsWith('.json')) {
-    writeJsonData(data, outputFilename)
-  } else if (outputFilename.endsWith('.js')) {
-    writeJsData(data, outputFilename)
-  } else {
-    writeJsData(data, `${outputFilename}.js`)
-    writeJsonData(data, `${outputFilename}.json`)
-  }
+  writeJsonData(data, outputFilename)
 }
 
 main()

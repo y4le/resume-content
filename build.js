@@ -40,9 +40,10 @@ function parseAllYaml (directory) {
         schemas[key.replace('_schema', '')] = fileData[key]
       } else {
         if (!mergedData[key]) {
-          mergedData[key] = []
+          mergedData[key] = fileData[key]
+        } else {
+          mergedData[key] = mergedData[key].concat(fileData[key])
         }
-        mergedData[key] = mergedData[key].concat(fileData[key])
       }
     })
   })

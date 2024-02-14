@@ -5,14 +5,14 @@ TIMELINE:
 
   - header: Google
     subheader: Dialer Team Software Engineer
-    start: 2019
-    end: 2022
+    start: '2019'
+    end: '2022'
     backgroundColor: rgb(66, 133, 244)
 
   - header: Tophatter
     subheader: Full Stack Software Engineer
     start: May 2017
-    end: 2018
+    end: '2018'
     backgroundColor: rgb(69, 36, 160)
 
   - header: Pandora
@@ -50,3 +50,26 @@ TIMELINE:
     start: Sep 2011
     end: May 2014
     backgroundColor: rgba(246, 75, 5, 1.3)
+
+
+TIMELINE_schema:
+  type: array
+  items:
+    type: object
+    properties:
+      header:
+        type: string
+      subheader:
+        type: string
+      start:
+        type: string
+      end:
+        type: string
+      backgroundColor:
+        type: string
+    required:
+    - header
+    - subheader
+    - start
+    - end
+    - backgroundColor

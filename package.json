@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "private": false,
   "scripts": {
-    "build": "node build.js ./data ./dist/data.js",
+    "build": "node build.js ./data ./dist/data",
     "lint": "npx standard build.js",
     "lint-fix": "npx standard build.js --fix"
   },

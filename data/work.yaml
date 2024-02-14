@@ -6,8 +6,8 @@ WORK:
   - title: Google
     title_link: http://www.google.com
     job_title: Dialer Team Software Engineer
-    start_date: 2019
-    end_date: 2022
+    start_date: '2019'
+    end_date: '2022'
     notes: >
       Worked on improving the default android "phone" app.
       Collaborated with a large team to build the automatic call screening feature.
@@ -25,8 +25,8 @@ WORK:
   - title: Tophatter
     title_link: http://www.tophatter.com
     job_title: Full Stack Software Engineer
-    start_date: 2017
-    end_date: 2018
+    start_date: '2017'
+    end_date: '2018'
     notes: >
       Started off working on front end web. Demoed a react version of Tophatter but didn\'t get support to move forward with it.
       Learned Rails and transitioned to full stack.
@@ -45,8 +45,8 @@ WORK:
   - title: Pandora
     title_link: http://www.pandora.com
     job_title: Web Team Engineer
-    start_date: 2015
-    end_date: 2017
+    start_date: '2015'
+    end_date: '2017'
     notes: >
       Worked on angular UI for a tool for artists to send messages to their listeners.
       Spent last year and a half working on complete react rewrite of web client.
@@ -59,8 +59,8 @@ WORK:
   - title: Rdio
     title_link: http://www.rdio.com
     job_title: Web Team Engineer
-    start_date: 2014
-    end_date: 2015
+    start_date: '2014'
+    end_date: '2015'
     notes: >
       Finally learned how to really work effectively in a software development team as an intern here.
       Dropped out of school to pursue a full time software engineering position.
@@ -79,7 +79,7 @@ WORK:
   - title: Facebook
     title_link: http://www.facebook.com
     job_title: Site Integrity Team Intern
-    end_date: 2013
+    end_date: '2013'
     notes: >
       Worked with content review staff to improve internal tools that had been slowing them down.
       Really enjoyed the challenge of making an interface that is intuitive and looks good.
@@ -91,8 +91,8 @@ WORK:
 
   - title: WASHU
     job_title: Medical Imaging Dept. Intern
-    end_date: 2012
-    skippable: true,
+    end_date: '2012'
+    skippable: true
     notes: >
       Worked with a self directed team of 3 on tool for XDS medical document transfer protocol.
       Built test endpoint with ability to select custom datasets that contained relevant file formats.
@@ -100,3 +100,34 @@ WORK:
     skills:
       - java
       - HTML
+
+
+WORK_schema:
+  type: array
+  items:
+    type: object
+    properties:
+      title:
+        type: string
+      title_link:
+        type: string
+      job_title:
+        type: string
+      start_date:
+        type: string
+      end_date:
+        type: string
+      notes:
+        type: string
+      skills:
+        type: array
+        items:
+          type: string
+      skippable:
+        type: boolean
+    required:
+    - title
+    - job_title
+    - end_date
+    - notes
+    - skills

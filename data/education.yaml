@@ -2,8 +2,8 @@
 
 EDUCATION:
   - title: UIUC
-    start_date: 2011
-    end_date: 2014
+    start_date: '2011'
+    end_date: '2014'
     notes: >
       Studied Materials Science and Computer Science.
       Eclectic class list.
@@ -12,8 +12,8 @@ EDUCATION:
       Dropped out after 3 years to pursue a full time software engineering position.
 
   - title: St. Louis Priory School
-    start_date: 2006
-    end_date: 2011
+    start_date: '2006'
+    end_date: '2011'
     notes: >
       Tutored Chemistry and Physics for school program. Then proceeded to start much more lucrative independent classroom-style prep courses for Chemistry that I ran for the summers of 2011-12.
       National Merit Semi-Finalist
@@ -51,11 +51,38 @@ CLASSES:
   - { subject: 'MSE',  number: 206, name: 'Mechanics for MatSE',        semester: 6, category: 2 }
   - { subject: 'MSE',  number: 450, name: 'Polymer Science & Eng.',     semester: 6, category: 2 }
 
-classOrderings:
-  - semester
-  - subject
-  - number
-  - alphabetic
 
+EDUCATION_schema:
+  type: array
+  items:
+    type: object
+    properties:
+      title:
+        type: string
+      start_date:
+        type: string
+      end_date:
+        type: string
+      notes:
+        type: string
+    required: [ title, start_date, end_date, notes ]
 
-
+CLASSES_schema:
+  type: array
+  items:
+    type: object
+    properties:
+      subject:
+        type: string
+        enum: [ MSE, CS, HIST, MATH, PHIL, ANTH, GEOL, PHYS, ARTD, ATMS, CHEM, CPSC ]
+      number:
+        type: integer
+      name:
+        type: string
+      semester:
+        type: integer
+        enum: [ 1, 2, 3, 4, 5, 6 ]
+      category:
+        type: integer
+        enum: [ 0, 1, 2 ]
+    required: [ subject, number, name, semester, category ]

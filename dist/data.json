@@ -1,4 +1,4 @@
-module.exports = Object.freeze(JSON.parse({
+{
   "EDUCATION": [
     {
       "title": "UIUC",
@@ -751,4 +751,4 @@ module.exports = Object.freeze(JSON.parse({
       }
     }
   }
-}));
+}

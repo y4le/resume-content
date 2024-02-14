@@ -12,3 +12,31 @@ PROFILE:
     A particular passion of mine is using machine learning to answer questions and surface information that would otherwise be too difficult to communicate.
     I am transhumanist at heart and believe that we are quickly moving towards a time where the boundary between user and computer will fade.
     I want to help us get there.
+
+
+PROFILE_schema:
+  type: object
+  properties:
+    name:
+      type: string
+    number:
+      type: string
+    email:
+      type: string
+    link:
+      type: string
+    linkedin:
+      type: string
+    git:
+      type: string
+    profile:
+      type: string
+  required:
+  - name
+  - number
+  - email
+  - link
+  - linkedin
+  - git
+  - profile
+

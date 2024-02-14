@@ -3,7 +3,7 @@
 PROJECTS:
 - title: GraphTV
   title_link: http://y4le.github.io/graphtv
-  end_date: 2017
+  end_date: '2017'
   notes: >
     Super bare bones site that visualizes TV shows imdb episode ratings.
     Inspired by the great late http://graphtv.kevinformatics.com/
@@ -15,7 +15,7 @@ PROJECTS:
 
 - title: Text Analyzer Webapp
   title_link: http://y4le.github.io/textTrends
-  end_date: 2014
+  end_date: '2014'
   notes: >
     Web app that visualizes word usage throughout long documents (think book series)
     First attempt at webapp personal project.
@@ -27,8 +27,8 @@ PROJECTS:
     - CSS
 
 - title: Engineering Open House
-  start_date: 2013
-  end_date: 2014
+  start_date: '2013'
+  end_date: '2014'
   notes: >
     EOH is a school wide tech demo.
     2013 - Designed, helped assemble, and programmed a Ferrofluid Music Visualizer.
@@ -39,8 +39,8 @@ PROJECTS:
     - PureData(never again)
 
 - title: FIRST Robotics
-  start_date: 2006
-  end_date: 2011
+  start_date: '2006'
+  end_date: '2011'
   notes: >
     Team 1329 leader from 2008-2011
     Head of mechanics team.
@@ -48,3 +48,29 @@ PROJECTS:
   skills:
     - hardware
     - java
+
+
+PROJECTS_schema:
+  type: array
+  items:
+    type: object
+    properties:
+      title:
+        type: string
+      title_link:
+        type: string
+      start_date:
+        type: string
+      end_date:
+        type: string
+      notes:
+        type: string
+      skills:
+        type: array
+        items:
+          type: string
+    required:
+    - title
+    - end_date
+    - notes
+    - skills

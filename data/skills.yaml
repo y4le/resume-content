@@ -16,8 +16,22 @@ SKILLS:
   - { name: 'Mathematica', skill: .5, category: 'math' }
   - { name: 'Photoshop',   skill: .6, category: 'adobe' }
 
-skillOrderings:
-  - category
-  - experience
-  - alphabetic
 
+SKILLS_schema:
+  type: array
+  items:
+    type: object
+    properties:
+      name:
+        type: string
+      skill:
+        type: number
+        minimum: 0 
+        maximum: 1.0
+      category:
+        type: string
+        enum: [ backend, ml, web, script, math, adobe ]
+    required:
+    - name
+    - skill
+    - category

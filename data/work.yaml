@@ -28,7 +28,7 @@ WORK:
     start_date: '2017'
     end_date: '2018'
     notes: |
-      Started off working on front end web. Demoed a react version of Tophatter but didn\'t get support to move forward with it.
+      Started off working on front end web. Demoed a react version of Tophatter but didn't get support to move forward with it.
       Learned Rails and transitioned to full stack.
       Pitched and worked with a team of 3 to build a collaborative filtering model for product recommendation.
       Worked with team of 3 to rebuild product deduplication pipeline from the ground up. Used neural networks to process item features into a few feature vectors, generated candidates using faiss vector similarity search, judged if candidates were actually duplicates using a random forest.

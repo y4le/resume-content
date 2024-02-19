@@ -1,7 +1,24 @@
 ---
 
 WORK:
-  # TODO update amazon
+
+  - title: Amazon
+    title_link: http://www.amazon.com
+    job_title: Software Engineer, Robotics AI
+    start_date: '2022'
+    end_date: '2023'
+    notes: |
+      Initially worked on computer vision for warehouse robotics.
+      Completed a camera calibration project before transitioning to a damage detection team due to team merger.
+      Explored alternative loss functions to train on larger, noisier data sets in damage detection.
+      Delivered detailed analyses and trained models for integration into the final Mixture of Experts (MoE) model.
+      Contributed a model instrumental in achieving the team's year-end accuracy goal for the MoE system.
+      Post goal-achievement, the entirety of my initial team, our manager, and our sibling teams were all laid off.
+      Achieved top 10 leaderboard rankings in ML trainings for tabular data prediction, computer vision, and advanced ML.
+    skills:
+      - python
+      - pytorch
+      - AWS
 
   - title: Google
     title_link: http://www.google.com

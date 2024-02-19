@@ -1,7 +1,18 @@
 ---
 
 TIMELINE:
-  # TODO update amazon
+
+  - header: Travel
+    subheader: Extended Honeymoon
+    start: '2023'
+    end: '2024'
+    backgroundColor: rgb(135, 206, 235)
+
+  - header: Amazon
+    subheader: Software Engineer, Robotics AI
+    start: '2022'
+    end: '2023'
+    backgroundColor: rgb(255, 153, 0)
 
   - header: Google
     subheader: Dialer Team Software Engineer

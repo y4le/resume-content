@@ -236,6 +236,28 @@
   },
   "PROJECTS": [
     {
+      "title": "Travel",
+      "end_date": "2024",
+      "notes": "Went on an extended honeymoon with my wonderful wife.\nCities in order visited - Austin - Chicago - Orlando - New Orleans - St. Louis - (green card!) - Singapore - Chaing Mai - Bangkok - Taipei - Taichung - Seoul - Shanghai - Singapore - Kuala Lumpur - Ho Chi Minh City - Hanoi - Sydney - Istanbul - Alacati - Pamukkale - Cappadocia - Bucharest - Budapest - Vienna - Amsterdam - Rome - New York - St. Louis - Tokyo - Hakuba - Hiroshima - Osaka - Kyoto - Tokyo - Singapore - Chiang Mai - Singapore\n",
+      "skills": [
+        "communication",
+        "adaptability"
+      ]
+    },
+    {
+      "title": "Noter",
+      "title_link": "https://github.com/y4le/noter",
+      "end_date": "2024",
+      "notes": "AI assisted note taking app that embeds your notes and uses a vector database to retrieve notes similar to the one being edited.\nAutomatic summarization of all notes.\nPowered by local models or the OpenAI API if you provide an API key.\nLearning project to brush up on retrieval augmented generation (openAI can sumarize similar notes in the context of the note being edited).\n",
+      "skills": [
+        "python",
+        "annoy (vector database)",
+        "huggingface transformers",
+        "openAI API",
+        "HTML"
+      ]
+    },
+    {
       "title": "GraphTV",
       "title_link": "http://y4le.github.io/graphtv",
       "end_date": "2017",
@@ -265,7 +287,7 @@
       "skills": [
         "hardware",
         "Arduino C",
-        "PureData(never again)"
+        "PureData (never again)"
       ]
     },
     {
@@ -410,6 +432,19 @@
     }
   ],
   "WORK": [
+    {
+      "title": "Amazon",
+      "title_link": "http://www.amazon.com",
+      "job_title": "Software Engineer, Computer Vision",
+      "start_date": "2022",
+      "end_date": "2023",
+      "notes": "Initially worked on computer vision for warehouse robotics.\nCompleted a camera calibration project before transitioning to a damage detection team due to team merger.\nExplored alternative loss functions to train on larger, noisier data sets in damage detection.\nDelivered detailed analyses and trained models for integration into the final Mixture of Experts (MoE) model.\nContributed a model instrumental in achieving the team's year-end accuracy goal for the MoE system.\nPost goal-achievement, the entirety of my initial team, our manager, and our sibling teams were all laid off.\nAchieved top 10 leaderboard rankings in ML trainings for tabular data prediction, computer vision, and advanced ML.\n",
+      "skills": [
+        "python",
+        "pytorch",
+        "AWS"
+      ]
+    },
     {
       "title": "Google",
       "title_link": "http://www.google.com",

@@ -1,6 +1,30 @@
 ---
 
 PROJECTS:
+- title: Travel
+  end_date: '2024'
+  notes: |
+    Went on an extended honeymoon with my wonderful wife.
+    Cities in order visited - Austin - Chicago - Orlando - New Orleans - St. Louis - (green card!) - Singapore - Chaing Mai - Bangkok - Taipei - Taichung - Seoul - Shanghai - Singapore - Kuala Lumpur - Ho Chi Minh City - Hanoi - Sydney - Istanbul - Alacati - Pamukkale - Cappadocia - Bucharest - Budapest - Vienna - Amsterdam - Rome - New York - St. Louis - Tokyo - Hakuba - Hiroshima - Osaka - Kyoto - Tokyo - Singapore - Chiang Mai - Singapore
+  skills:
+    - communication
+    - adaptability
+
+- title: Noter
+  title_link: https://github.com/y4le/noter
+  end_date: '2024'
+  notes: |
+    AI assisted note taking app that embeds your notes and uses a vector database to retrieve notes similar to the one being edited.
+    Automatic summarization of all notes.
+    Powered by local models or the OpenAI API if you provide an API key.
+    Learning project to brush up on retrieval augmented generation (openAI can sumarize similar notes in the context of the note being edited).
+  skills:
+    - python
+    - annoy (vector database)
+    - huggingface transformers
+    - openAI API
+    - HTML
+
 - title: GraphTV
   title_link: http://y4le.github.io/graphtv
   end_date: '2017'
@@ -36,7 +60,7 @@ PROJECTS:
   skills:
     - hardware
     - Arduino C
-    - PureData(never again)
+    - PureData (never again)
 
 - title: FIRST Robotics
   start_date: '2006'

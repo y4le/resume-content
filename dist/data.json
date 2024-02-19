@@ -238,7 +238,7 @@
     {
       "title": "Travel",
       "end_date": "2024",
-      "notes": "Went on an extended honeymoon with my wonderful wife.\nCities in order visited - Austin - Chicago - Orlando - New Orleans - St. Louis - (green card!) - Singapore - Chaing Mai - Bangkok - Taipei - Taichung - Seoul - Shanghai - Singapore - Kuala Lumpur - Ho Chi Minh City - Hanoi - Sydney - Istanbul - Alacati - Pamukkale - Cappadocia - Bucharest - Budapest - Vienna - Amsterdam - Rome - New York - St. Louis - Tokyo - Hakuba - Hiroshima - Osaka - Kyoto - Tokyo - Singapore - Chiang Mai - Singapore\n",
+      "notes": "Went on an extended honeymoon with my wonderful wife.\nCities in order visited -> Austin -> Chicago -> Orlando -> New Orleans -> St. Louis -> (green card!) -> Singapore -> Chaing Mai -> Bangkok -> Taipei -> Taichung -> Seoul -> Shanghai -> Singapore -> Kuala Lumpur -> Ho Chi Minh City -> Hanoi -> Sydney -> Istanbul -> Alacati -> Pamukkale -> Cappadocia -> Bucharest -> Budapest -> Vienna -> Amsterdam -> Rome -> New York -> St. Louis -> Tokyo -> Hakuba -> Hiroshima -> Osaka -> Kyoto -> Tokyo -> Singapore -> Chiang Mai -> Singapore\n",
       "skills": [
         "communication",
         "adaptability"

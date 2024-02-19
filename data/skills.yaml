@@ -3,18 +3,19 @@
 SKILLS:
   - { name: 'Ruby',        skill: .7, category: 'backend' }
   - { name: 'Java',        skill: .9, category: 'backend' }
-  - { name: 'Kotlin',      skill: .2, category: 'backend' }
+  - { name: 'Kotlin',      skill: .2, category: 'backend', skippable: true }
   - { name: 'Python',      skill: .9, category: 'backend' }
   - { name: 'Tensorflow',  skill: .5, category: 'ml' }
-  - { name: 'Spark',       skill: .6, category: 'ml' }
-  - { name: 'CSS',         skill: .8, category: 'web' }
-  - { name: 'HTML',        skill: .8, category: 'web' }
+  - { name: 'Pytorch',     skill: .6, category: 'ml' }
+  - { name: 'Spark',       skill: .3, category: 'ml',      skippable: true }
+  - { name: 'CSS',         skill: .8, category: 'web',     skippable: true }
+  - { name: 'HTML',        skill: .8, category: 'web',     skippable: true }
   - { name: 'Javascript',  skill: .9, category: 'web' }
-  - { name: 'Bash',        skill: .5, category: 'script' }
-  - { name: 'SQL',         skill: .7, category: 'backend' }
-  - { name: 'Matlab',      skill: .3, category: 'math' }
-  - { name: 'Mathematica', skill: .5, category: 'math' }
-  - { name: 'Photoshop',   skill: .6, category: 'adobe' }
+  - { name: 'Bash',        skill: .6, category: 'script' }
+  - { name: 'SQL',         skill: .5, category: 'backend' }
+  - { name: 'Matlab',      skill: .3, category: 'math',    skippable: true }
+  - { name: 'Mathematica', skill: .5, category: 'math',    skippable: true }
+  - { name: 'Photoshop',   skill: .6, category: 'adobe',   skippable: true }
 
 
 SKILLS_schema:
@@ -31,6 +32,8 @@ SKILLS_schema:
       category:
         type: string
         enum: [ backend, ml, web, script, math, adobe ]
+      skippable:
+        type: boolean
     required:
     - name
     - skill

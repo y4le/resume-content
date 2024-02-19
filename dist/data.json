@@ -315,7 +315,8 @@
     {
       "name": "Kotlin",
       "skill": 0.2,
-      "category": "backend"
+      "category": "backend",
+      "skippable": true
     },
     {
       "name": "Python",
@@ -328,19 +329,27 @@
       "category": "ml"
     },
     {
-      "name": "Spark",
+      "name": "Pytorch",
       "skill": 0.6,
       "category": "ml"
     },
     {
+      "name": "Spark",
+      "skill": 0.3,
+      "category": "ml",
+      "skippable": true
+    },
+    {
       "name": "CSS",
       "skill": 0.8,
-      "category": "web"
+      "category": "web",
+      "skippable": true
     },
     {
       "name": "HTML",
       "skill": 0.8,
-      "category": "web"
+      "category": "web",
+      "skippable": true
     },
     {
       "name": "Javascript",
@@ -349,31 +358,48 @@
     },
     {
       "name": "Bash",
-      "skill": 0.5,
+      "skill": 0.6,
       "category": "script"
     },
     {
       "name": "SQL",
-      "skill": 0.7,
+      "skill": 0.5,
       "category": "backend"
     },
     {
       "name": "Matlab",
       "skill": 0.3,
-      "category": "math"
+      "category": "math",
+      "skippable": true
     },
     {
       "name": "Mathematica",
       "skill": 0.5,
-      "category": "math"
+      "category": "math",
+      "skippable": true
     },
     {
       "name": "Photoshop",
       "skill": 0.6,
-      "category": "adobe"
+      "category": "adobe",
+      "skippable": true
     }
   ],
   "TIMELINE": [
+    {
+      "header": "Travel",
+      "subheader": "Extended Honeymoon",
+      "start": "2023",
+      "end": "2024",
+      "backgroundColor": "rgb(135, 206, 235)"
+    },
+    {
+      "header": "Amazon",
+      "subheader": "Software Engineer, Robotics AI",
+      "start": "2022",
+      "end": "2023",
+      "backgroundColor": "rgb(255, 153, 0)"
+    },
     {
       "header": "Google",
       "subheader": "Dialer Team Software Engineer",
@@ -435,7 +461,7 @@
     {
       "title": "Amazon",
       "title_link": "http://www.amazon.com",
-      "job_title": "Software Engineer, Computer Vision",
+      "job_title": "Software Engineer, Robotics AI",
       "start_date": "2022",
       "end_date": "2023",
       "notes": "Initially worked on computer vision for warehouse robotics.\nCompleted a camera calibration project before transitioning to a damage detection team due to team merger.\nExplored alternative loss functions to train on larger, noisier data sets in damage detection.\nDelivered detailed analyses and trained models for integration into the final Mixture of Experts (MoE) model.\nContributed a model instrumental in achieving the team's year-end accuracy goal for the MoE system.\nPost goal-achievement, the entirety of my initial team, our manager, and our sibling teams were all laid off.\nAchieved top 10 leaderboard rankings in ML trainings for tabular data prediction, computer vision, and advanced ML.\n",
@@ -702,6 +728,9 @@
               "math",
               "adobe"
             ]
+          },
+          "skippable": {
+            "type": "boolean"
           }
         },
         "required": [

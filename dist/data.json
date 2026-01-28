@@ -475,7 +475,7 @@
       "job_title": "Software Engineer, Machine Learning Generalist",
       "start_date": "2024",
       "end_date": "now",
-      "notes": "Working on the Instagram Relevance Labs team supporting new features on the ML side.\nWorked on the initial launch of Friendly Viewer (the little bubbles that show your friends liked a post).\nBrought Blend through global launch (combine your algorithm with your friends in a DM thread).\nInitial engineer on Your Algorithm, built prototype with 2 other coworkers, current owner of \"see less\" (tell the algorithm topics you want to see more and less)\n",
+      "notes": "Working on Instagram's Relevance Labs team, supporting new features on the ML side.\nWorked on the initial launch of Friendly Viewer (shows which of your friends liked a post with little profile bubbles).\nBrought Blend through global launch (combine your algorithm with a friend's in a DM thread).\nInitial engineer on Your Algorithm; built the prototype with two other coworkers and currently own \"see less\" (users tell the algorithm which topics they want to see more or less of).\n",
       "skills": [
         "python",
         "Hack",

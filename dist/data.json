@@ -232,7 +232,7 @@
     "link": "http://y4le.github.io/react-resume/",
     "linkedin": "http://www.linkedin.com/pub/yale-thomas/80/511/295",
     "git": "https://github.com/y4le",
-    "profile": "I am a software engineer that enjoys working with a variety of technology, from backend to data science up through the client. A particular passion of mine is using machine learning to answer questions and surface information that would otherwise be too difficult to communicate. I am transhumanist at heart and believe that we are quickly moving towards a time where the boundary between user and computer will fade. I want to help us get there.\n"
+    "profile": "I am a software engineer that enjoys working with a variety of technology, from backend to data science up through the client. A particular passion of mine is using machine learning to answer questions and surface information that would otherwise be too difficult to communicate. I believe that we are quickly moving towards a time where the boundary between user and computer will fade and I want to help us get there.\n"
   },
   "PROJECTS": [
     {
@@ -488,7 +488,7 @@
       "job_title": "Software Engineer, Robotics AI",
       "start_date": "2022",
       "end_date": "2023",
-      "notes": "Initially worked on computer vision for warehouse robotics.\nCompleted a camera calibration project before transitioning to a damage detection team due to team merger.\nExplored alternative loss functions to train on larger, noisier data sets in damage detection.\nDelivered detailed analyses and trained models for integration into the final Mixture of Experts (MoE) model.\nContributed a model instrumental in achieving the team's year-end accuracy goal for the MoE system.\nPost goal-achievement, the entirety of my initial team, our manager, and our sibling teams were all laid off.\nAchieved top 10 leaderboard rankings in ML trainings for tabular data prediction, computer vision, and advanced ML.\n",
+      "notes": "Initially worked on computer vision for warehouse robotics.\nCompleted a camera calibration project before transitioning to a damage detection team due to team merger.\nDelivered detailed analyses and trained models for integration into the final Mixture of Experts (MoE) model.\nContributed a model instrumental in achieving the team's year-end accuracy goal for the MoE system.\nPost goal-achievement, the entirety of my initial team, our manager, and our sibling teams were all laid off.\n",
       "skills": [
         "python",
         "pytorch",
@@ -542,7 +542,7 @@
       "job_title": "Web Team Engineer",
       "start_date": "2014",
       "end_date": "2015",
-      "notes": "Finally learned how to really work effectively in a software development team as an intern here.\nDropped out of school to pursue a full time software engineering position.\nWorked on \"music feed\", the current rdio.com homepage page.\nImplemented a user exit survey that collects much more information than before.\nPitched, created, and deployed a viewport tracker for the content on our homepage.\nImplemented Rdio Select subscription tier on web.\nUpgraded multiple admin pages with better visualizations/UX.\n",
+      "notes": "Finally learned how to really work effectively in a software development team as an intern here.\nDropped out of school to pursue a full time software engineering position.\nWorked on \"music feed\", the final rdio.com homepage page.\nPitched, created, and deployed a viewport tracker for the content on our homepage.\nImplemented Rdio Select subscription tier on web.\n",
       "skills": [
         "JS (backbone) (react)",
         "HTML",
@@ -556,6 +556,7 @@
       "title_link": "http://www.facebook.com",
       "job_title": "Site Integrity Team Intern",
       "end_date": "2013",
+      "skippable": true,
       "notes": "Worked with content review staff to improve internal tools that had been slowing them down.\nReally enjoyed the challenge of making an interface that is intuitive and looks good.\nProductivity could have been better, I was afraid of asking for help because I wanted to look smart. I learned from my experience.\n",
       "skills": [
         "PHP",

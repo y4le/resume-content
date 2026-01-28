@@ -26,11 +26,9 @@ WORK:
     notes: |
       Initially worked on computer vision for warehouse robotics.
       Completed a camera calibration project before transitioning to a damage detection team due to team merger.
-      Explored alternative loss functions to train on larger, noisier data sets in damage detection.
       Delivered detailed analyses and trained models for integration into the final Mixture of Experts (MoE) model.
       Contributed a model instrumental in achieving the team's year-end accuracy goal for the MoE system.
       Post goal-achievement, the entirety of my initial team, our manager, and our sibling teams were all laid off.
-      Achieved top 10 leaderboard rankings in ML trainings for tabular data prediction, computer vision, and advanced ML.
     skills:
       - python
       - pytorch
@@ -97,11 +95,9 @@ WORK:
     notes: |
       Finally learned how to really work effectively in a software development team as an intern here.
       Dropped out of school to pursue a full time software engineering position.
-      Worked on "music feed", the current rdio.com homepage page.
-      Implemented a user exit survey that collects much more information than before.
+      Worked on "music feed", the final rdio.com homepage page.
       Pitched, created, and deployed a viewport tracker for the content on our homepage.
       Implemented Rdio Select subscription tier on web.
-      Upgraded multiple admin pages with better visualizations/UX.
     skills:
       - JS (backbone) (react)
       - HTML
@@ -113,6 +109,7 @@ WORK:
     title_link: http://www.facebook.com
     job_title: Site Integrity Team Intern
     end_date: '2013'
+    skippable: true
     notes: |
       Worked with content review staff to improve internal tools that had been slowing them down.
       Really enjoyed the challenge of making an interface that is intuitive and looks good.
